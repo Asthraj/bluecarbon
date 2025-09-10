@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "BlueCarbonMRV Mobile",
+    "slug": "bluecarbon-mobile",
+    "version": "0.1.0",
+    "platforms": ["android"],
+    "sdkVersion": "48.0.0",
+    "orientation": "portrait",
+    "icon": "../public/placeholder.svg",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "org.bluecarbon.mrv",
+      "permissions": ["CAMERA", "ACCESS_FINE_LOCATION", "WRITE_EXTERNAL_STORAGE", "READ_EXTERNAL_STORAGE"],
+      "adaptiveIcon": {
+        "foregroundImage": "../public/placeholder.svg",
+        "backgroundColor": "#FFFFFF"
+      }
+    }
+  }
+}
