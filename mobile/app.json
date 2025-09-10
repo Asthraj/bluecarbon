@@ -10,7 +10,12 @@
     "userInterfaceStyle": "light",
     "android": {
       "package": "org.bluecarbon.mrv",
-      "permissions": ["CAMERA", "ACCESS_FINE_LOCATION", "WRITE_EXTERNAL_STORAGE", "READ_EXTERNAL_STORAGE"],
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "../public/placeholder.svg",
         "backgroundColor": "#FFFFFF"

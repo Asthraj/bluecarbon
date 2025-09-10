@@ -61,9 +61,12 @@ export default function Registry() {
     <section className="container py-10">
       <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight">Blue Carbon Registry</h1>
+          <h1 className="text-3xl font-bold tracking-tight">
+            Blue Carbon Registry
+          </h1>
           <p className="text-muted-foreground mt-1">
-            Immutable, publicly viewable records of verified restoration projects.
+            Immutable, publicly viewable records of verified restoration
+            projects.
           </p>
         </div>
         <div className="flex items-center gap-2">
@@ -96,7 +99,9 @@ export default function Registry() {
           <tbody>
             {filtered.map((p) => (
               <tr key={p.id} className="border-t hover:bg-accent/40">
-                <td className="px-4 py-3 font-mono text-xs text-muted-foreground">{p.id}</td>
+                <td className="px-4 py-3 font-mono text-xs text-muted-foreground">
+                  {p.id}
+                </td>
                 <td className="px-4 py-3 font-medium">{p.name}</td>
                 <td className="px-4 py-3">{p.state}</td>
                 <td className="px-4 py-3">{p.owner}</td>
@@ -107,8 +112,8 @@ export default function Registry() {
                       p.status === "Verified"
                         ? "bg-emerald-100 text-emerald-700"
                         : p.status === "Minted"
-                        ? "bg-primary/10 text-primary"
-                        : "bg-yellow-100 text-yellow-700"
+                          ? "bg-primary/10 text-primary"
+                          : "bg-yellow-100 text-yellow-700"
                     }`}
                   >
                     {p.status}

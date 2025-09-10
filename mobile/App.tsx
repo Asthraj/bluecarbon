@@ -1,11 +1,11 @@
-import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomeScreen from './src/screens/HomeScreen';
-import UploadScreen from './src/screens/UploadScreen';
-import CameraScreen from './src/screens/CameraScreen';
-import WalletScreen from './src/screens/WalletScreen';
-import { StatusBar } from 'expo-status-bar';
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import HomeScreen from "./src/screens/HomeScreen";
+import UploadScreen from "./src/screens/UploadScreen";
+import CameraScreen from "./src/screens/CameraScreen";
+import WalletScreen from "./src/screens/WalletScreen";
+import { StatusBar } from "expo-status-bar";
 
 export type RootStackParamList = {
   Home: undefined;

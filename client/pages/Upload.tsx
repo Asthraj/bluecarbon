@@ -8,7 +8,8 @@ export default function Upload() {
     <section className="container max-w-3xl py-10">
       <h1 className="text-3xl font-bold tracking-tight">Upload Field Data</h1>
       <p className="text-muted-foreground mt-1">
-        Submit geo-tagged photos, drone footage, and measurements from the field.
+        Submit geo-tagged photos, drone footage, and measurements from the
+        field.
       </p>
 
       <form
@@ -102,8 +103,8 @@ export default function Upload() {
 
       <div className="mt-8 grid gap-4 rounded-lg border p-6 text-sm text-muted-foreground">
         <p>
-          Tip: When using a mobile device, enable GPS for accurate geo-tags. Drone
-          flights can be uploaded as MP4 or image sequences.
+          Tip: When using a mobile device, enable GPS for accurate geo-tags.
+          Drone flights can be uploaded as MP4 or image sequences.
         </p>
       </div>
     </section>
